@@ -1,5 +1,10 @@
-function toggleModalVisibility(isVisible) {
-    return !isVisible;
-}
-console.log(toggleModalVisibility(true));
-console.log(toggleModalVisibility(false));
+
+
+let людина = {
+    ім'я: "Іван",
+    вік: 30,
+    привітання: function() {
+      console.log("Привіт, мене звати " + this.ім'я);
+    }
+  };
+  
